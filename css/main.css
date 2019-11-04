@@ -6,3 +6,41 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+.banner {
+  display: block;
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.content {
+  bottom: 0;
+  padding: 0 5rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50em;
+}
+
+h2 {
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  font-size: 4rem;
+  margin: 0;
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: lighter;
+}
